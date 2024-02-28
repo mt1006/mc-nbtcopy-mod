@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.mt1006.nbt_copy.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins":
+  [
+    "BlockDataAccessorMixin",
+    "EntityDataAccessorMixin",
+    "StorageDataAccessorMixin"
+  ],
+  "injectors": { "defaultRequire": 1 },
+  "refmap": "mixins.nbt_copy.refmap.json"
+}
