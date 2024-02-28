@@ -1,0 +1,6 @@
+{
+  "nbt_copy.copy_button": " §7[kopiuj]",
+  "nbt_copy.copy_button_info": "Kopiuj dane NBT do schowka",
+
+  "modmenu.descriptionTranslation.nbt_copy": "Dodaje przycisk kopiowania wyjścia polecenia \"/data get\""
+}
