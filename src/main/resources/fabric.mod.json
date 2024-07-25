@@ -5,13 +5,14 @@
 
 	"name": "NBT Copy",
 	"description": "Adds copy button for the \"/data get\" command output",
-	"authors": ["mt1006 (mt1006x)"],
+	"authors": ["mt1006"],
 	"contact":
 	{
 		"homepage": "https://modrinth.com/mod/nbt-copy",
 		"sources": "https://github.com/mt1006/mc-nbtcopy-mod",
 		"issues": "https://github.com/mt1006/mc-nbtcopy-mod/issues"
 	},
+
 	"license": "LGPL-3.0-only",
 	"icon": "icon.png",
 
@@ -24,9 +25,9 @@
 
 	"depends":
 	{
+		"minecraft": ">=1.19",
 		"fabricloader": ">=0.15.0",
 		"fabric": "*",
-		"minecraft": ">=1.19",
 		"java": ">=17"
 	}
 }

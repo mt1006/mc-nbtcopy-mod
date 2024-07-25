@@ -1,2 +1,6 @@
+===Version 1.0.2===
+-Added Chinese [traditional] translation (thanks to dirtTW).
+-Version information is no longer sent to logs during startup.
+
 ===Version 1.0.1===
 -Minor improvements.
