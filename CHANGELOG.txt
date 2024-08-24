@@ -1,3 +1,6 @@
+===Version 1.0.3===
+-Fixed mod icon missing on Fabric.
+
 ===Version 1.0.2===
 -Added Chinese [traditional] translation (thanks to dirtTW).
 -Version information is no longer sent to logs during startup.
