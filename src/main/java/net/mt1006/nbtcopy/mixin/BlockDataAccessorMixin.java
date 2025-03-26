@@ -21,7 +21,7 @@ public abstract class BlockDataAccessorMixin
 		if (!NBTcopy.skipButton)
 		{
 			NBTcopy.skipButton = true;
-			Component component = NBTcopy.withCopyButton(getPrintSuccess(tag), tag.getAsString());
+			Component component = NBTcopy.withCopyButton(getPrintSuccess(tag), tag.toString());
 			NBTcopy.skipButton = false;
 
 			cir.setReturnValue(component);
