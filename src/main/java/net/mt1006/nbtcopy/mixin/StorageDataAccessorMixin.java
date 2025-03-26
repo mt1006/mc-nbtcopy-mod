@@ -1,6 +1,6 @@
-package com.mt1006.nbt_copy.mixin;
+package net.mt1006.nbtcopy.mixin;
 
-import com.mt1006.nbt_copy.NBTcopy;
+import net.mt1006.nbtcopy.NBTcopy;
 import net.minecraft.nbt.Tag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.commands.data.StorageDataAccessor;
