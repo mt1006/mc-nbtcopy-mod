@@ -1,3 +1,7 @@
+===Version 1.0.4===
+-Changed mod id from "nbt_copy" to "nbtcopy".
+-Minor improvements.
+
 ===Version 1.0.3===
 -Fixed mod icon missing on Fabric.
 

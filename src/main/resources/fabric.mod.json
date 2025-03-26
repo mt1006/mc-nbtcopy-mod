@@ -1,10 +1,10 @@
 {
 	"schemaVersion": 1,
-	"id": "nbt_copy",
+	"id": "nbtcopy",
 	"version": "${version}",
 
 	"name": "NBT Copy",
-	"description": "Adds copy button for the \"/data get\" command output",
+	"description": "Adds copy button for the \"/data get\" command output.",
 	"authors": ["mt1006"],
 	"contact":
 	{
@@ -19,13 +19,13 @@
 	"environment": "*",
 	"entrypoints":
 	{
-		"main": ["com.mt1006.nbt_copy.NBTcopy"]
+		"main": ["net.mt1006.nbtcopy.NBTcopy"]
 	},
-	"mixins": ["mixins.nbt_copy.json"],
+	"mixins": ["mixins.nbtcopy.json"],
 
 	"depends":
 	{
-		"minecraft": ">=1.19",
+		"minecraft": ">=1.19 <1.21.5",
 		"fabricloader": ">=0.15.0",
 		"fabric": "*",
 		"java": ">=17"
