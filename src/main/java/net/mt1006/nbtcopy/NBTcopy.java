@@ -11,8 +11,8 @@ public class NBTcopy implements ModInitializer
 
 	public static MutableComponent withCopyButton(Component component, String textToCopy)
 	{
-		ClickEvent clickEvent = new ClickEvent(ClickEvent.Action.COPY_TO_CLIPBOARD, textToCopy);
-		HoverEvent hoverEvent = new HoverEvent(HoverEvent.Action.SHOW_TEXT, Component.translatable("nbtcopy.copy_button_info"));
+		ClickEvent clickEvent = new ClickEvent.CopyToClipboard(textToCopy);
+		HoverEvent hoverEvent = new HoverEvent.ShowText(Component.translatable("nbtcopy.copy_button_info"));
 		return component.copy().append(Component.translatable("nbtcopy.copy_button")
 				.setStyle(Style.EMPTY.withClickEvent(clickEvent).withHoverEvent(hoverEvent)));
 	}
