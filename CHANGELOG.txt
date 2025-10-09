@@ -1,3 +1,6 @@
+===Version 1.0.5===
+-Renamed Fabric API dependency from "fabric" to "fabric-api" on version for Fabric 1.21.5 and later.
+
 ===Version 1.0.4===
 -Changed mod id from "nbt_copy" to "nbtcopy".
 -Minor improvements.
