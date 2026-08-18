@@ -1,3 +1,11 @@
+## THIS REPOSITORY HAS BEEN MOVED TO CODEBERG
+
+### New repository: https://codeberg.org/mt1006/mc-nbtcopy-mod
+
+### Issue tracker: https://codeberg.org/mt1006/mc-nbtcopy-mod/issues
+
+
+
 # About
 **NBT Copy** is a small Minecraft mod adding copy button for the `/data get` command output.
 
